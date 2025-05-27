@@ -1,0 +1,988 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>Nutrition</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>G:\exe\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Nutrition.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Nutrition.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>290313287B69BB7B992DDA7B54D74BC71838609F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Nutrition_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="RichTextBoxPrintCtrl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\RichTextBoxPrintCtrl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.119.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\lib\net45\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alimento.Designer.vb">
+      <DependentUpon>Alimento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alimento.vb" />
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CadClientes.Designer.vb">
+      <DependentUpon>CadClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CadClientes.vb" />
+    <Compile Include="Dieta.Designer.vb">
+      <DependentUpon>Dieta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dieta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manejo.Designer.vb">
+      <DependentUpon>Manejo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manejo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mascara.vb" />
+    <Compile Include="Termos.Designer.vb">
+      <DependentUpon>Termos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Termos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conexao.vb" />
+    <Compile Include="Calcular.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Alimento.resx">
+      <DependentUpon>Alimento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadClientes.resx">
+      <DependentUpon>CadClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dieta.resx">
+      <DependentUpon>Dieta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manejo.resx">
+      <DependentUpon>Manejo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Termos.resx">
+      <DependentUpon>Termos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Nutrition_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg menu-usar20_opacidade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-logofazenda-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card-propriedade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card-propriedade-add-verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-lista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-icone-nova_fazenda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-icone-cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usuário.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-pequeno-anexar_imagem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-circulos-fechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botão-medio-localizarfazenda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-icone-Salvar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseTextField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectTextField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fzda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-dieta-mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-icone-Novo_alimento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-circulos-filtro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-ajuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG montado do menu principal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-menulateral_dietas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-menulateral_nutricional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-menulateral_manejo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-farm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseTextField - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseTextField - curto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login-bg-1440x930.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box-login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-cta-verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-filtro-todos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-filtro-limpar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visivel-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visivel-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-01-10 at 17.53.58.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-apagar-lote-base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box-login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt voltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-lotes-regular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-lotes-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-dieta-regular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-manejo-regular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-relatorionutricional-regular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-forrajeiro-regular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-insumos-regular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-icone-Novo_lote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-MN-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-MS-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-premix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-dieta-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-custo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-custo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-salvar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seta-dieta-tabelas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-loteinfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-alimentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-volumoso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-lotes-mini-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-dieta-mini1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-manejo-mini-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-circulos-relatorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-forrajeiro-mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-insumos-mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-manejo-mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-lotes-mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-dieta-mini-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-lista1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-menulateral_lotes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-menulateral_dietas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-circulos-dietas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-circulos-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-circulos-delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-01-13 at 14.15.50.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-01-13 at 14.15.50 %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-01-13 at 14.15.50 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-01-13 at 14.15.49.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-01-13 at 14.11.00.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-01-13 at 14.07.49.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botao-menu-lateral-abrir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botao-menu-lateral-fechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-circulos-relatorio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-01-13 at 14.11.001.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-dieta-mini2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-dieta-mini3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-novo-lote-base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-circulos-relatorio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-lotes-regular1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-dieta-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-novo-lote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-circulos-fechar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-novo-lote-base1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-nova-propriedade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra Fazenda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-visualizar-lote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-apagar-lote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-icone-confirmar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-icone-cancelar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-apagar-dieta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-dados-fazenda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-icone-add-alimentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-biblioteca de alimentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-novadieta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-filtro-alimentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-lote-dados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem da home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-dieta-mini4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoes-menulateral-relatorionutricional-mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-Rel_nutri-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-Rel_fin-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-premix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-biblioteca de alimentos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-filtro-alimentos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-filtro-todos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-premix1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-premix - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-biblioteca de alimentos2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-biblioteca de alimentos3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-novo-lote1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-cadastrar alimento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txtAlimentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txtAlimentosp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txtAlimentosp2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dieta2-off1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dieta2-on.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premistura-on.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ms-on.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-avaliador-nutricional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-Rel_nutri-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-Rel_fin-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mn-on.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ms-of.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mn-of.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-02-03 at 16.08.02.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-Análise de Volumoso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Analise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Analise - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-Selecione a fazenda-Edicao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-select-avaliador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-select-avaliador1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 - Configuração- Avaliadores-todo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menudrop-User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-Home- últimas dieta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-Home- últimas diet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home- últimas dieta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home - Biblioteca de Alimentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home - propriedades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-editar-propriedade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Propriedade - Nova Dieta - premix ativo - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premistura-of.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-cadastrar alimento-novo avaliador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home - Biblioteca de Alimentos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-cadastrar alimento1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-biblioteca de alimentos4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camada_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MODELO-menu principal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 - Configuração- Avaliadores-todos - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo empresa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Propriedade - Dieta1 - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 - Configuração- Avaliadores-todo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txtAlimentosp11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login-termos aceite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login-termos aceit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-cta-aceito desativo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-cta-aceito ativo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem da home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 - Configuração- Avaliadores-todo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 - Configuração- Avaliadores-todo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login-termos aceite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-nova-propriedade1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-novo-lote - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-avaliador-nutricional1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botão-micro-avaliador-relacional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit Aval.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit Aval1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit Aval2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dieta01 of.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 - Configuração- Avaliadores-todo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-Confirmar-NomeAlimento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-cadastrar alimento-novo avaliador - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-cadastrar alimento-novo avaliador - Copia1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-alimento-excluir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-composicaoQuimica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-participacao nutricional.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-premistura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-novadieta1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07-modal-Composicao Quimica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06-modal-biblioteca de alimentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06-modal-biblioteca de alimento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-premix-desmontarmistura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\08-modal-Participação Nutriciona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premistura_on.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pre-mistura_on.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-menutopo-calculadora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-menutopo-desfazer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-menutopo-refazer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-premix - Copia1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Propriedade - Nova Dieta - premix ativo - Copia1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - forragem - historic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - forragem - historic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - forragem -.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - forragem - historico - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - forragem - historic2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - trat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - trato - historic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - Sobra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - Sobras - historic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - Fezes e Urina - Urin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - Fezes e Urina - Urina - Historic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - Fezes e Urina - Feze.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - Fezes e Urina - Fezes - historic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - Misturas - premistur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - Misturas - vagã.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - forragem - historic - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - forragem - Copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-grafico Qualidade - Forragens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-grafico Qualidade - Trats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modal-grafico Qualidade - Sobra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manejo - particula - trato barra.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

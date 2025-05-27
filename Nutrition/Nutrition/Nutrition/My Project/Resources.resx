@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Box-login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Box-login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Propriedade - Dieta1 - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Propriedade - Dieta1 - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MODELO-menu principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MODELO-menu principal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-termos aceite2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-termos aceite1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-circulos-delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-circulos-delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-novo-lote-base" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-novo-lote-base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pre-mistura_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pre-mistura_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-forrajeiro-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-forrajeiro-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - forragem - historic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - forragem - historic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="06-modal-biblioteca de alimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\06-modal-biblioteca de alimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-termos aceit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-termos aceit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-dieta-mini-hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-dieta-mini-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagem da home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem da home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2-menulateral_dietas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-menulateral_dietas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-Selecione a fazenda-Edicao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-Selecione a fazenda-Edicao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-forrajeiro-regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-forrajeiro-regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home - Biblioteca de Alimentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home - Biblioteca de Alimentos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-circulos-fechar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-circulos-fechar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-lotes-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-lotes-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-Rel_fin-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-Rel_fin-on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit Aval1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit Aval1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg-logofazenda-card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg-logofazenda-card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-dieta-mini2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-dieta-mini2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ms-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms-on.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - Fezes e Urina - Fezes - historic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - Fezes e Urina - Fezes - historic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-relatorionutricional-regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-relatorionutricional-regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-circulos-relatorio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-circulos-relatorio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-filtro-todos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-filtro-todos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - forragem - historic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - forragem - historic1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-volumoso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-volumoso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-select-avaliador1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-select-avaliador1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-alimentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-alimentos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="card-lista1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\card-lista1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-filtro-limpar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-filtro-limpar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menudrop-User" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menudrop-User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botao-menu-lateral-abrir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botao-menu-lateral-abrir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-MN-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-MN-on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-menutopo-desfazer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-menutopo-desfazer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="06-modal-biblioteca de alimentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\06-modal-biblioteca de alimentos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dieta01 of" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dieta01 of.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtAlimentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtAlimentos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buscar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Card-propriedade-add-verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Card-propriedade-add-verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-01-13 at 14.11.00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-01-13 at 14.11.00.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-manejo-regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-manejo-regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visivel-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visivel-on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-premix1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-premix1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premistura_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\premistura_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-manejo-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-manejo-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-participacao nutricional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-participacao nutricional.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtAlimentosp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtAlimentosp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg menu-usar20_opacidade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg menu-usar20_opacidade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-cadastrar alimento1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-cadastrar alimento1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premistura-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\premistura-on.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-alimento-excluir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-alimento-excluir.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagem da home1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagem da home1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-novo-lote1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-novo-lote1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-pequeno-anexar_imagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-pequeno-anexar_imagem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-premix - Copia1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-premix - Copia1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-cadastrar alimento-novo avaliador - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-cadastrar alimento-novo avaliador - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-lotes-regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-lotes-regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="01 - Configuração- Avaliadores-todo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01 - Configuração- Avaliadores-todo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-Rel_nutri-off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-Rel_nutri-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="01 - Configuração- Avaliadores-todos - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01 - Configuração- Avaliadores-todos - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-lotes-regular1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-lotes-regular1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-circulos-relatorio2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-circulos-relatorio2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-circulos-dietas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-circulos-dietas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="card-lista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\card-lista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Usuário" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Usuário.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-dieta-regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-dieta-regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-apagar-lote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-apagar-lote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mn-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mn-on.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botão-medio-localizarfazenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botão-medio-localizarfazenda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-Rel_fin-off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-Rel_fin-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-novadieta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-novadieta1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-novo-lote - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-novo-lote - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-circulos-fechar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-circulos-fechar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - forragem - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - forragem - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-01-13 at 14.15.50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-01-13 at 14.15.50 (1).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - trato - historic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - trato - historic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo empresa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo empresa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="08-modal-Participação Nutriciona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08-modal-Participação Nutriciona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botao-menu-lateral-fechar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botao-menu-lateral-fechar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-biblioteca de alimentos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-biblioteca de alimentos2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-filtro-todos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-filtro-todos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-Rel_nutri-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-Rel_nutri-on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - forragem - historic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - forragem - historic2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Camada_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Camada_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtAlimentosp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtAlimentosp2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-01-13 at 14.15.49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-01-13 at 14.15.49.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-icone-add-alimentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-icone-add-alimentos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home - Biblioteca de Alimentos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home - Biblioteca de Alimentos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3-Home- últimas diet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-Home- últimas diet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2-menulateral_dietas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-menulateral_dietas1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-cadastrar alimento-novo avaliador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-cadastrar alimento-novo avaliador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-premix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-premix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG montado do menu principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG montado do menu principal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1-menulateral_lotes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1-menulateral_lotes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baseTextField - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseTextField - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-icone-cancelar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-icone-cancelar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-manejo-mini-hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-manejo-mini-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-dieta-hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-dieta-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3-Home- últimas dieta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-Home- últimas dieta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-menutopo-refazer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-menutopo-refazer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - Sobra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - Sobra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-Análise de Volumoso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-Análise de Volumoso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Propriedade - Nova Dieta - premix ativo - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Propriedade - Nova Dieta - premix ativo - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-grafico Qualidade - Forragens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-grafico Qualidade - Forragens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="01 - Configuração- Avaliadores-todo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01 - Configuração- Avaliadores-todo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - Fezes e Urina - Feze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - Fezes e Urina - Feze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-circulos-edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-circulos-edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-editar-propriedade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-editar-propriedade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-bg-1440x930" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-bg-1440x930.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectTextField" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectTextField.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premistura-of" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\premistura-of.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - forragem - historic - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - forragem - historic - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-grafico Qualidade - Sobra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-grafico Qualidade - Sobra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ms-of" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms-of.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buscar - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buscar - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - Sobras - historic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - Sobras - historic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-novo-lote-base1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-novo-lote-base1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-icone-confirmar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-icone-confirmar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-premix - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-premix - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-novo-lote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-novo-lote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-dieta-mini1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-dieta-mini1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-premix-desmontarmistura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-premix-desmontarmistura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-insumos-regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-insumos-regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-02-03 at 16.11.08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-02-03 at 16.11.08.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-01-13 at 14.111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-01-13 at 14.11.001.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Propriedade - Nova Dieta - premix ativo - Copia1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Propriedade - Nova Dieta - premix ativo - Copia1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Box-login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Box-login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dieta2-off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dieta2-off1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - trat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - trat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-ajuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-ajuda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - Fezes e Urina - Urin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - Fezes e Urina - Urin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mn-of" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mn-of.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-circulos-relatorio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-circulos-relatorio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-MS-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-MS-on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-filtro-alimentos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-filtro-alimentos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-premix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-premix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fzda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fzda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baseTextField" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseTextField.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-dados-fazenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-dados-fazenda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-novadieta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-novadieta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home - propriedades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home - propriedades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-lotes-hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-lotes-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-custo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-custo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt voltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt voltar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo-farm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo-farm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-termos aceite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-termos aceite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - Fezes e Urina - Urina - Historic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - Fezes e Urina - Urina - Historic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-cta-verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-cta-verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dieta2-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dieta2-on.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-nova-propriedade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-nova-propriedade1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-filtro-alimentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-filtro-alimentos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-salvar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-salvar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-biblioteca de alimentos4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-biblioteca de alimentos4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3-menulateral_manejo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-menulateral_manejo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baseTextField - curto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseTextField - curto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-premistura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-premistura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analise - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analise - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - Misturas - vagã" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - Misturas - vagã.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - Misturas - premistur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - Misturas - premistur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-icone-Novo_alimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-icone-Novo_alimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visivel-off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visivel-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="07-modal-Composicao Quimica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\07-modal-Composicao Quimica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-01-13 at 14.15.50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-01-13 at 14.15.50.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-avaliador-nutricional1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-avaliador-nutricional1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit Aval" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit Aval.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-apagar-lote-base" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-apagar-lote-base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="01 - Configuração- Avaliadores-todo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01 - Configuração- Avaliadores-todo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-biblioteca de alimentos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-biblioteca de alimentos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-loteinfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-loteinfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-nova-propriedade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-nova-propriedade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-icone-Novo_lote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-icone-Novo_lote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-01-13 at 14.15.50 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-01-13 at 14.15.50 (2).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-termos aceite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-termos aceite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-apagar-dieta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-apagar-dieta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-select-avaliador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-select-avaliador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-02-03 at 16.08.02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-02-03 at 16.08.02.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-01-13 at 14.07.49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-01-13 at 14.07.49.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-visualizar-lote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-visualizar-lote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra Fazenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra Fazenda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - forragem -" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - forragem -.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-dieta-mini3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-dieta-mini3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit Aval2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit Aval2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-Confirmar-NomeAlimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-Confirmar-NomeAlimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analise1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-avaliador-relacional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-avaliador-relacional.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta-dieta-tabelas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta-dieta-tabelas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Card-propriedade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Card-propriedade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-grafico Qualidade - Trats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-grafico Qualidade - Trats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-cadastrar alimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-cadastrar alimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="01 - Configuração- Avaliadores-todo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01 - Configuração- Avaliadores-todo4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-biblioteca de alimentos3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-biblioteca de alimentos3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-avaliador-nutricional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-avaliador-nutricional.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-circulos-filtro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-circulos-filtro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-lotes-mini-hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-lotes-mini-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-cta-aceito desativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-cta-aceito desativo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtAlimentosp11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtAlimentosp11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4-menulateral_nutricional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4-menulateral_nutricional.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-lote-dados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-lote-dados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-cta-aceito ativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-cta-aceito ativo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-relatorionutricional-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-relatorionutricional-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-icone-nova_fazenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-icone-nova_fazenda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-custo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-custo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="01 - Configuração- Avaliadores-todo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01 - Configuração- Avaliadores-todo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-icone-cancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-icone-cancelar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-composicaoQuimica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-composicaoQuimica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-biblioteca de alimentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-biblioteca de alimentos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-dieta-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-dieta-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-01-10 at 17.53.58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-01-10 at 17.53.58.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-icone-Salvar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-icone-Salvar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão-micro-dieta-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão-micro-dieta-on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - forragem - historico - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - forragem - historico - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home- últimas dieta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home- últimas dieta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-insumos-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-insumos-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt-menutopo-calculadora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-menutopo-calculadora.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modal-cadastrar alimento-novo avaliador - Copia1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modal-cadastrar alimento-novo avaliador - Copia1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botoes-menulateral-dieta-mini4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botoes-menulateral-dieta-mini4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manejo - particula - trato barra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manejo - particula - trato barra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

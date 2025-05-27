@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Nutrition\\Nutrition\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|g:\\nutrition\\nutrition\\nutrition\\dieta.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\dieta.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|G:\\Nutrition\\Nutrition\\nutrition\\dieta.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\dieta.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|G:\\Nutrition\\Nutrition\\nutrition\\menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Nutrition||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|G:\\Nutrition\\Nutrition\\nutrition\\mascara.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\mascara.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|G:\\Nutrition\\Nutrition\\nutrition\\menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|G:\\Nutrition\\Nutrition\\nutrition\\conexao.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\conexao.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|G:\\Nutrition\\Nutrition\\nutrition\\termos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\termos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|G:\\Nutrition\\Nutrition\\nutrition\\alimento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\alimento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|G:\\Nutrition\\Nutrition\\nutrition\\alimento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\alimento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|G:\\Nutrition\\Nutrition\\nutrition\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86E0E1BD-73AA-4A8F-94D9-FCAF4E8E66FE}|Nutrition\\Nutrition.vbproj|solutionrelative:nutrition\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.vb [Design]",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Menu.vb",
+              "RelativeDocumentMoniker": "Nutrition\\Menu.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Menu.vb [Design]",
+              "RelativeToolTip": "Nutrition\\Menu.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-13T18:22:15.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nutrition",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Nutrition.vbproj",
+              "RelativeDocumentMoniker": "Nutrition\\Nutrition.vbproj",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Nutrition.vbproj*",
+              "RelativeToolTip": "Nutrition\\Nutrition.vbproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-28T20:40:20.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dieta.vb",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Dieta.vb",
+              "RelativeDocumentMoniker": "Nutrition\\Dieta.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Dieta.vb",
+              "RelativeToolTip": "Nutrition\\Dieta.vb",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAqwBUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-24T11:10:14.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mascara.vb",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Mascara.vb",
+              "RelativeDocumentMoniker": "Nutrition\\Mascara.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Mascara.vb",
+              "RelativeToolTip": "Nutrition\\Mascara.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-08T19:59:06.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Conexao.vb",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Conexao.vb",
+              "RelativeDocumentMoniker": "Nutrition\\Conexao.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Conexao.vb",
+              "RelativeToolTip": "Nutrition\\Conexao.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-08T19:48:41.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Termos.vb [Design]",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Termos.vb",
+              "RelativeDocumentMoniker": "Nutrition\\Termos.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Termos.vb [Design]",
+              "RelativeToolTip": "Nutrition\\Termos.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-29T16:46:42.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "login.vb [Design]",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\login.vb",
+              "RelativeDocumentMoniker": "Nutrition\\login.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\login.vb [Design]",
+              "RelativeToolTip": "Nutrition\\login.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-28T22:48:15.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Alimento.vb",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Alimento.vb",
+              "RelativeDocumentMoniker": "Nutrition\\Alimento.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Alimento.vb",
+              "RelativeToolTip": "Nutrition\\Alimento.vb",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAqwJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-28T09:40:37.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Alimento.vb [Design]",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Alimento.vb",
+              "RelativeDocumentMoniker": "Nutrition\\Alimento.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Alimento.vb [Design]",
+              "RelativeToolTip": "Nutrition\\Alimento.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-28T09:37:06.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dieta.vb [Design]",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Dieta.vb",
+              "RelativeDocumentMoniker": "Nutrition\\Dieta.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Dieta.vb [Design]",
+              "RelativeToolTip": "Nutrition\\Dieta.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-24T11:08:32.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu.vb",
+              "DocumentMoniker": "G:\\Nutrition\\Nutrition\\Nutrition\\Menu.vb",
+              "RelativeDocumentMoniker": "Nutrition\\Menu.vb",
+              "ToolTip": "G:\\Nutrition\\Nutrition\\Nutrition\\Menu.vb",
+              "RelativeToolTip": "Nutrition\\Menu.vb",
+              "ViewState": "AgIAAOwGAAAAAAAAAAAAAIUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-13T18:22:33.311Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

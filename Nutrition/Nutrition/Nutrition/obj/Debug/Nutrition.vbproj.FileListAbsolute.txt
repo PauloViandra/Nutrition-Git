@@ -1,0 +1,188 @@
+G:\Nutrition\Nutrition\Nutrition\bin\Debug\Nutrition.exe.config
+G:\Nutrition\Nutrition\Nutrition\bin\Debug\Nutrition.exe.manifest
+G:\Nutrition\Nutrition\Nutrition\bin\Debug\Nutrition.application
+G:\Nutrition\Nutrition\Nutrition\bin\Debug\Nutrition.exe
+G:\Nutrition\Nutrition\Nutrition\bin\Debug\Nutrition.pdb
+G:\Nutrition\Nutrition\Nutrition\bin\Debug\Nutrition.xml
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmLogin.resources
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmContrato.resources
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmMenu.resources
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Resources.resources
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.GenerateResource.Cache
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\Nutrition.exe.manifest
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\Nutrition.application
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\Nutrition.exe
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\Nutrition.xml
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\Nutrition.pdb
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\bin\Debug\Nutrition.exe.config
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\Nutrition.exe
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\Nutrition.xml
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\Nutrition.pdb
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\bin\Debug\Nutrition.exe.manifest
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\bin\Debug\Nutrition.application
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\bin\Debug\Nutrition.exe
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\bin\Debug\Nutrition.pdb
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\bin\Debug\Nutrition.xml
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\Nutrition.vbprojResolveAssemblyReference.cache
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmAlimento.resources
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmDieta.resources
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmLogin.resources
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmManejo.resources
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmContrato.resources
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmMenu.resources
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Resources.resources
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.GenerateResource.Cache
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\Nutrition.exe.manifest
+G:\Nutrition - teste ipressaão\Nutrition\Nutrition\obj\Debug\Nutrition.application
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\Nutrition.exe.config
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\Nutrition.exe.manifest
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\Nutrition.application
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\Nutrition.exe
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\Nutrition.pdb
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\Nutrition.xml
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.AssemblyReference.cache
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmAlimento.resources
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmDieta.resources
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmLogin.resources
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmManejo.resources
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmContrato.resources
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmMenu.resources
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Resources.resources
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.GenerateResource.cache
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.CoreCompileInputs.cache
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\Nutrition.exe.manifest
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\Nutrition.application
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.Up2Date
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\Nutrition.exe
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\Nutrition.xml
+G:\BKP NUTRITION\Nutrition - 4-12-24\Nutrition\Nutrition\obj\Debug\Nutrition.pdb
+G:\Nutrition\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.dll
+G:\Nutrition\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.xml
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmDieta.resources
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\WindowsApplication1.CadClientes.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\bin\Debug\Nutrition.exe.config
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\Nutrition.exe
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\Nutrition.xml
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\Nutrition.pdb
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\bin\Debug\Nutrition.exe.manifest
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\bin\Debug\Nutrition.application
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\bin\Debug\Nutrition.exe
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\bin\Debug\Nutrition.pdb
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\bin\Debug\Nutrition.xml
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.dll
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.xml
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\Nutrition.vbprojResolveAssemblyReference.cache
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmAlimento.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\WindowsApplication1.CadClientes.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmDieta.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Form1.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmLogin.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmManejo.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmContrato.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmMenu.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Resources.resources
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.GenerateResource.Cache
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\Nutrition.exe.manifest
+G:\Nutrition - 11-03 pronto v1\Nutrition\Nutrition\obj\Debug\Nutrition.application
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\bin\Debug\Nutrition.exe.config
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\Nutrition.exe
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\Nutrition.xml
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\Nutrition.pdb
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\bin\Debug\Nutrition.exe.manifest
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\bin\Debug\Nutrition.application
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\bin\Debug\Nutrition.exe
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\bin\Debug\Nutrition.pdb
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\bin\Debug\Nutrition.xml
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.dll
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.xml
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\Nutrition.vbprojResolveAssemblyReference.cache
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmAlimento.resources
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\WindowsApplication1.CadClientes.resources
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmDieta.resources
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmLogin.resources
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmContrato.resources
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmMenu.resources
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Resources.resources
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.GenerateResource.Cache
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\Nutrition.exe.manifest
+G:\Nutrition - 12-03 limpo\Nutrition\Nutrition\obj\Debug\Nutrition.application
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\bin\Debug\Nutrition.exe.config
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\Nutrition.exe
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\Nutrition.xml
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\Nutrition.pdb
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\bin\Debug\Nutrition.exe.manifest
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\bin\Debug\Nutrition.application
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\bin\Debug\Nutrition.exe
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\bin\Debug\Nutrition.pdb
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\bin\Debug\Nutrition.xml
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.dll
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.xml
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmAlimento.resources
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\WindowsApplication1.CadClientes.resources
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmDieta.resources
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmLogin.resources
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmContrato.resources
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmMenu.resources
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Resources.resources
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.GenerateResource.Cache
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\Nutrition.exe.manifest
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\Nutrition.application
+G:\Nutrition - Resolução menor\Nutrition\Nutrition\obj\Debug\Nutrition.vbprojResolveAssemblyReference.cache
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\bin\Debug\Nutrition.exe.config
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\Nutrition.exe
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\Nutrition.xml
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\Nutrition.pdb
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\Nutrition.vbprojResolveAssemblyReference.cache
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmAlimento.resources
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\WindowsApplication1.CadClientes.resources
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmDieta.resources
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmLogin.resources
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmContrato.resources
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmMenu.resources
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Resources.resources
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.GenerateResource.Cache
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\bin\Debug\Nutrition.exe.manifest
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\bin\Debug\Nutrition.application
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\bin\Debug\Nutrition.exe
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\bin\Debug\Nutrition.pdb
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\bin\Debug\Nutrition.xml
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.dll
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.xml
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\Nutrition.exe.manifest
+G:\Nutrition - Resolução menor - 25-03 2\Nutrition\Nutrition\obj\Debug\Nutrition.application
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\bin\Debug\Nutrition.exe.config
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\Nutrition.exe
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\Nutrition.xml
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\Nutrition.pdb
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\bin\Debug\Nutrition.exe.manifest
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\bin\Debug\Nutrition.application
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\bin\Debug\Nutrition.exe
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\bin\Debug\Nutrition.pdb
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\bin\Debug\Nutrition.xml
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.dll
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\bin\Debug\System.Data.SQLite.xml
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmAlimento.resources
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\WindowsApplication1.CadClientes.resources
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmDieta.resources
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmLogin.resources
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmContrato.resources
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmMenu.resources
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Resources.resources
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\Nutrition.vbproj.GenerateResource.Cache
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\Nutrition.exe.manifest
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\Nutrition.application
+G:\Nutrition - 27-03 avaliadores ok\Nutrition\Nutrition\obj\Debug\Nutrition.vbprojResolveAssemblyReference.cache
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\WindowsApplication1.frmManejo.resources
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\WindowsApplication1.Alimento.resources
+G:\Nutrition\Nutrition\Nutrition\obj\Debug\Nutrition.vbprojResolveAssemblyReference.cache
